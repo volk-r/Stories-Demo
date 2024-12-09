@@ -1,2 +1,3 @@
-# Stories-Demo
-Stories demo, iOS 17+
+# Stories Demo
+
+Stories demo with TabView, iOS 17+
