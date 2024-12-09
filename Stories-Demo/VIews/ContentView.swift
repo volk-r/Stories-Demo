@@ -2,7 +2,6 @@ import SwiftUI
 
 struct ContentView: View {
     let stories: [Story]
-    @State var currentStoryIndex: Int = 0
 
     var body: some View {
         ZStack(alignment: .topTrailing) {
@@ -12,4 +11,9 @@ struct ContentView: View {
                 .padding(.trailing, 12)
         }
     }
+}
+
+#Preview {
+    let stories: [Story] = [ .story1, .story2, .story3 ]
+    ContentView(stories: stories)
 }
